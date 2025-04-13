@@ -1,12 +1,11 @@
-#Create a login form to ask for username and password from users
 <html>
-    <head><title>登入</title></head>
+    <head><title>登入</title></head>#設定網頁的標題為「登入」，這個標題會出現在瀏覽器標籤中
     <body>
         <form action="3.login.php" method="post">  
-            帳號：<input type="text" name="id"><br> 
-            密碼：<input type="password" name="pwd"><br> 
+            帳號：<input type="text" name="id"><br> #提供使用者輸入帳號的文本框，並透過 name="id" 命名，讓後端能識別這個字段的資料。
+            密碼：<input type="password" name="pwd"><br> #提供一個密碼輸入框，輸入的內容會以星號或圓點顯示，保護使用者的隱私。
             <input type="submit"> 
-            <input type="reset">
+            <input type="reset">#按鈕用來清除表單中已輸入的所有內容，使表單恢復到初始狀態。
             
         </form>
     </body>

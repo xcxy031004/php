@@ -1,4 +1,4 @@
-#login and save the user ID into the session if successful,then direct to the 11.bulletin.php page
+#登入成功後將使用者ID 儲存至會話中，然後跳轉至11.bulletin.php頁面。
 <?php
    $conn=mysqli_connect("db4free.net", "immust", "immustimmust", "immust");
    $result=mysqli_query($conn, "select * from user");

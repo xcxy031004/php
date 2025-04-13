@@ -1,6 +1,6 @@
-#•Check if the user is logged in.
-#•If so, display the bulletin data table and bulletin management features (add, edit, delete).
-#•If not logged in, redirect to the login page.
+#檢查使用者是否已登入。
+#如果已登入，顯示公告資料表以及公告管理功能（新增、編輯、刪除）。
+#如果未登入，將其重定向至登入頁面。
 <?php
     error_reporting(0);
     session_start();

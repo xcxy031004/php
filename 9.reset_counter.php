@@ -1,4 +1,3 @@
-#Resets the counter value stored in the session, then returns to the main counter page
 <?php
     session_start();
     unset($_SESSION["counter"]);

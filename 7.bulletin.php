@@ -1,4 +1,3 @@
-#bulletin in html table form
 <?php
     error_reporting(0);
     $conn=mysqli_connect("db4free.net", "immust", "immustimmust", "immust");

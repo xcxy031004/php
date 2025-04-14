@@ -1,4 +1,3 @@
-#delete the login session and redirect the user back to the login page
 <?php
     session_start();#啟動會話
     unset($_SESSION["id"]);#刪除使用者 ID

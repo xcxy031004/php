@@ -1,4 +1,3 @@
-#Create a counter that increments every time the page is refreshed, using sessions.
 <?php
     session_start(); #
     if (!isset($_SESSION["counter"]))
